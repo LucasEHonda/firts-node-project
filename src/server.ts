@@ -27,4 +27,4 @@ app.use((err: Error, request: Request, response: Response, next: NextFunction) =
     })
 })
 
-app.listen(port, () => console.log(`Server is running on port ${port} NLW`))
+app.listen(port, () => console.log(`Server is running on port ${port}`))
